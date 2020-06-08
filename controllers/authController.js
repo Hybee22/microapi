@@ -42,6 +42,8 @@ exports.signupUser = catchAsync(async (req, res, next) => {
     firstName: req.body.firstName,
     lastName: req.body.lastName,
     email: req.body.email,
+    phoneNumber: req.body.phoneNumber,
+    address: req.body.address,
     password: req.body.password,
     passwordConfirm: req.body.passwordConfirm,
   });
